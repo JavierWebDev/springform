@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <h1 class="titulo">Formulario</h1>
+        <div class="form-container">
+            <form id="userForm" class="form">
+                <div class="cont-input_form">
+                    <label for="inputUserName">USER</label>
+                    <input id="inputUserName" class="input" type="text" required>
+                </div>
+
+                <div class="cont-input_form">
+                    <label for="inputUserEmail">EMAIL</label>
+                    <input id="inputUserEmail" class="input" type="text" required>
+                </div>
+
+                <button id="sendButton">SUBMIT</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
